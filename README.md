@@ -10,6 +10,8 @@ This project is a Bluetooth-controlled robot car that can move forward, backward
 - **Bluetooth module**
 - **Battery (9V or 12V)**
 
+- then i have used an application Arduino Bluetooth  Control 
+
 ## Code
 
 ```cpp
