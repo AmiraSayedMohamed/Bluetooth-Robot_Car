@@ -8,7 +8,7 @@ This project is a Bluetooth-controlled robot car that can move forward, backward
 - **H Bridge DC Motor Controller L298N Module**
 - **2 DC motors and wheels**
 - **Bluetooth module**
-- **Battery (12V)**
+- **Battery (12V) or powerbank**
 
 ## Application used to control you Car-Robot using a mobile
 - Arduino Bluetooth  Control
@@ -42,9 +42,13 @@ void loop() {
   if (cmd == 'F') { // move forward
     digitalWrite(leftMotorForward, HIGH);
     digitalWrite(rightMotorForward, HIGH);
+    digitalWrite(leftMotorBackward, LOW;
+    digitalWrite(rightMotorBackward, LOW);
   } else if (cmd == 'B') { // move reverse
     digitalWrite(leftMotorBackward, HIGH);
     digitalWrite(rightMotorBackward, HIGH);
+    digitalWrite(leftMotorForward, LOW);
+    digitalWrite(rightMotorForward, LOW);
   } else if (cmd == 'L') { // turn Left
     digitalWrite(rightMotorForward, HIGH);
   } else if (cmd == 'R') { // turn Right
