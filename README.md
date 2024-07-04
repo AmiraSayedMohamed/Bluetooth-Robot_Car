@@ -6,9 +6,9 @@ This project is a Bluetooth-controlled robot car that can move forward, backward
 
 - **Arduino Uno**
 - **H Bridge DC Stepper Motor Controller L298N Module**
-- **2 DC stepper motors and wheels**
+- **2 DC motors and wheels**
 - **Bluetooth module**
-- **Battery (9V or 12V)**
+- **Battery (12V)**
 
 - then i have used an application Arduino Bluetooth  Control 
 
